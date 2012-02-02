@@ -1,2 +1,5 @@
-#!/bin/sh
-wget https://github.com/downloads/rakudo/star/rakudo-star-2011.07.tar.gz
+#!/bin/bash
+set -o errexit
+VERSION='2012.01'
+URI="https://github.com/downloads/rakudo/star/rakudo-star-${VERSION}.tar.gz"
+wget --no-clobber ${URI}
