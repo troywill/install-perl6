@@ -3,9 +3,9 @@ set -o errexit
 set -o verbose
 set -o nounset
 
-PARROT_VERSION=3.6.0
+PARROT_VERSION=3.11.0
 PREFIX=/usr/local
-BINDIR=$PREFIX/perl6
+BINDIR=$PREFIX/bin/perl6
 
 perl Configure.pl --prefix=$PREFIX --bindir=$BINDIR
 make

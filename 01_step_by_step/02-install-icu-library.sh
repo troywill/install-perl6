@@ -1,3 +1,2 @@
-#!/bin/sh
+#!/bin/bash
 pacman --verbose --sync icu
-
