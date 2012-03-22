@@ -4,7 +4,7 @@ set -o verbose
 set -o nounset
 
 PACKAGE='nqp'
-VERSION='2012.01'
+VERSION='2012.02'
 PREFIX='/usr/local'
 DESTDIR="/stow/nqp-${VERSION}"
 
