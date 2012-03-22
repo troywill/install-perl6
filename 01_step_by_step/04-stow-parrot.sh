@@ -3,7 +3,7 @@ set -o errexit
 set -o verbose
 set -o nounset
 
-PARROT_VERSION=3.11.0
+PARROT_VERSION=4.1.0
 PREFIX=/usr/local
 BINDIR=$PREFIX/bin/perl6
 
