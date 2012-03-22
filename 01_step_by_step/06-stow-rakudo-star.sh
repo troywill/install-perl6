@@ -2,7 +2,7 @@
 set -o errexit
 set -o nounset
 PACKAGE='perl6'
-VERSION='2012.01'
+VERSION='2012.02'
 DESTDIR="/stow/${PACKAGE}-${VERSION}"
 perl Configure.pl --prefix=/usr/local
 make
